@@ -18,7 +18,7 @@ pipeline {
         stage('Clone') {
             steps {
                 echo '🔁 Cloning the GitHub repository...'
-                git url: 'https://github.com/KumanandCapco/SRE/blob/main/Docker.git', branch: 'master'
+                git url: 'https://github.com/KumanandCapco/SRE.git', branch: 'master'
             }
         }
 
